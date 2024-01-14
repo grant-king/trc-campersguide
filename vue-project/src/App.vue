@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 import SectionLeaders from './components/SectionLeaders.vue';
+import SectionList from './components/SectionList.vue';
 </script>
 
 <template>
   <SectionLeaders />
+  <SectionList />
 </template>

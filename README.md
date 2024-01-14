@@ -21,3 +21,10 @@ Static Vue site for displaying TRC Camper's Guide info in a user-friendly format
 
 ### 1. Follow Vue installation instructions on [Tailwind Docs](https://tailwindcss.com/docs/guides/vite#vue)
 
+### 2. Create tailwind.css style sheet, import and add tailwind directives.
+
+### 3. Update main.js, import tailwind style sheet.
+
+### 4. Run `npm run dev` to interact with site in dev server. Update HelloWorld.vue component, add Tailwind CSS component classes to test and demonstrate its use.
+
+### 5. Pushing this updated code will automatically update the deployed site, according to the Azure Static Web Apps GitHub workflow file. It takes about 2 minutes to see the updates go live. You can check on the status of the deployment from GitHub Actions.

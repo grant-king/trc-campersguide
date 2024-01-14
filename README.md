@@ -16,3 +16,8 @@ Static Vue site for displaying TRC Camper's Guide info in a user-friendly format
 ### 6. Deploy on Azure as a static site
 
 ### 7. Repeat steps 4 and 5 ad infinitum.
+
+## Update 1: Integrate Tailwind CSS
+
+### 1. Follow Vue installation instructions on [Tailwind Docs](https://tailwindcss.com/docs/guides/vite#vue)
+

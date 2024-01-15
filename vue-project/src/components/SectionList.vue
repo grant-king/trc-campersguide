@@ -591,54 +591,140 @@ const sections = [
         ]
     },
     {
-        title: 'Section Title',
-        description: 'This section contains the',
-        id: 'sectionid',
+        title: 'General Steps of Consequence',
+        description: 'This section outlines the general steps of consequence for rules violations.',
+        id: 'consequence',
         parts: [
             {
-                title: 'Part A Title',
-                description: 'This part describes',
+                title: 'Infractions',
+                description: 'Using the "Laws of Common Sense" - Definitions',
                 content: [
                     {
-                        heading: 'Item Heading',
+                        heading: 'Minor Infractions',
                         body: '',
                         list: [
-                            '',
-                            '',
+                            'Minor violations of the rules may be considered as a “First Strike”. One to two committee members may investigate as deemed necessary by the Rules Committee, and the Member will be issued a verbal or written warning, which will be documented by the Rules Committee.',
+                            'Said member may, depending on the nature of the violation, be placed on Probation. Probation does not jeopardize Membership status but will be taken into account if any subsequent violations occur. Probation will be lifted at the end of the Season in which the violation occurred if no further violations occur, or upon recommendation of the Rules Committee with Board approval.',
+                        ]
+                    },
+                    {
+                        heading: 'Major Infractions',
+                        body: '',
+                        list: [
+                            'Any subsequent violations while on probation, or any single, more serious violations of the rules will be considered a “Second Strike”.',
+                            'Suspension of membership status for a period of time recommended by the Rules committee may be imposed and the member’s voting rights at the Annual General Meeting may be suspended.',
+                        ]
+                    },
+                    {
+                        heading: 'Critical Infractions',
+                        body: '',
+                        list: [
+                            'Any illegal activity (i.e. fireworks, firearms, theft, or violence) or continued violations of the rules while on probation, may be considered a “Third Strike”.',
+                            'A 1-year suspension or permanent termination of one’s membership is a likely course of action. Board involvement will be necessary to approve any recommendation of suspension.',
+                            'In rare situations where members are requested to leave immediately, this must be communicated to the Executive committee as soon as possible.',
+                            'Would most likely begin with an immediate suspension of a membership through Executive action during the investigation and until the next scheduled BOD meeting.',
                         ]
                     },
                 ],
-                href: '#part-a',
-                id: 'part-a',
+                href: '#consequence-a',
+                id: 'consequence-a',
                 imageUrl:
                     camping_1,
             },
             {
-                title: 'Part B Title',
-                description: 'This part describes',
+                title: 'Policy for Infractions',
+                description: 'The following is TRC policy on how rule infractions are to be documented and handled in conjunction with the Vice President of Member Relations and the Rules Committee, unless already defined by existing rules.',
                 content: [
                     {
-                        heading: 'Item Heading',
-                        body: '',
+                        heading: 'Adaptable Procedure',
+                        body: 'Since every infraction varies in severity and circumstance, the following process may not be appropriate in certain situations.',
                         list: [
-                            '',
-                            '',
-                            '',
-                        ]
-                    },
-                    {
-                        heading: 'Item Heading',
-                        body: '',
-                        list: [
-                            '',
-                            '',
-                            '',
-                            '',
+                            '1. The infraction is met with a verbal warning by either the VP or Director on Duty or a Rules Committee member at behest of the VP. It shall be documented by the Rules Committee, in as much detail as possible.',
+                            '2. A second infraction or series of minor, documented incidents will be considered a “First Strike”. The Process of Investigation shall be followed as outlined in the following Section and the findings will either be hand delivered, emailed, or sent via USPS and documented by the Rules Committee.',
+                            '3. A third rule violation by the same member will constitute a “Second Strike”. The Process of Investigation shall be followed and the findings will either be hand delivered, emailed, or sent via USPS. This shall require said member to be called before the rule committee for discussion of continued infractions. Within fifteen (15) days, the Rules Committee, in conjunction with the Vice President of Operations, will inform the member in writing, of the repercussions due to their continuing violation of TRC Rules and Policies. This report will also be presented to th Board of Directors at the next official Board meeting.',
+                            '4. All infractions that result in any punitive action shall be reported to the Board at the next meeting. If the Board does not object to the recommendations presented, the recommendations shall be considered approved. Otherwise the Board may vote to vacate the recommendations or amend them by way a vote.',
+                            '5. If the member wishes to appeal the decision of the Rules Committee, they may do so following the Appeals process of TRC.',
                         ]
                     },
                 ],
-                href: '#part-b',
-                id: 'part-b',
+                href: '#consequence-b',
+                id: 'consequence-b',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'The Process of Investigation by the Rules Committee',
+                description: 'This part describes the process of investigation by the Rules Committee.',
+                content: [
+                    {
+                        heading: 'Choosing the Investigator',
+                        body: '',
+                        list: [
+                            'The VP of Member Relations will select a member(s) of the Rules Committee that can preserve impartiality throughout the investigation, taking into account relationships to those being investigated.',
+                            'Rules will note the availability of the committee members so that the investigation is done in a quick and speedy manner.',
+                            'Any Rules committee member will recuse themselves from discussion if a clear conflict of interest presents itself, with the exception of procedural questions.',
+                            'If no member of the Rules committee is deemed to be able to maintain impartiality, the chair may ask another regular or seasonal member to assist at their discretion.',
+                        ]
+                    },
+                    {
+                        heading: 'Investigation Process',
+                        body: '',
+                        list: [
+                            'The incident report will be communicated to the Rules committee for discussion either in person or via electronic means as soon as possible.',
+                            'The Chair will choose those that will lead the investigation, as outlined in the previous section.',
+                            'Investigators will interview all parties involved, including the VP under which the violation falls.',
+                            'The Rules Committee will meet after the investigators have handed in reports to the chair and discuss.',
+                            'The chair of the Rules Committee will submit their findings and proposed recommendation of consequences in writing to the member in question and notify them of the time and location of the upcoming Board meeting where the incident will be discussed and any objections to the recommendations by the Board may discussed and voted on, if necessary. ',
+                            'The chair of the Rules Committee will also provide the incident report and the committee’s recommendation to the BOD at the next scheduled BOD meeting. The member in question is strongly encouraged to attend.',
+                            'If the member in question is not satisfied with the findings of The Rules Committee or vote, they have the right to follow the Grievance and Appeals process as stated in the following part.',
+                        ]
+                    },
+                ],
+                href: '#consequence-c',
+                id: 'consequence-c',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Coplaint/Grievance & Appeals Policy',
+                description: 'This part describes the general policies for filing complaints or an appealing a board decision.',
+                content: [
+                    {
+                        heading: 'Concerns regarding incidents on TRC property or while conducting business for or with TRC',
+                        body: '',
+                        list: [
+                            'Any TRC Member may raise a concern regarding their personal experience while on TRC grounds and /or conducting TRC business. This would typically include cases where there is illegal activity, dangerous situations, rules infractions, etc. Anytime you feel you were treated in an unprofessional way, or a decision was made that you feel was inconsistent with the facts.',
+                            'Members are encouraged to discuss the matter first directly with the person(s) involved. If that is not satisfactory, or not possible, you are encouraged to submit an incident report for review by the Rules Committee',
+                        ]
+                    },
+                    {
+                        heading: 'Reporting Incidents',
+                        body: 'It is highly recommended that all incidents of illegal activity and/or dangerous situations be reported immediately.',
+                    },
+                    {
+                        heading: 'Filing an Incident Report',
+                        body: '',
+                        list: [
+                            'TRC incident report forms are available in the phone kiosk during the regular camping season.E - copies are also available year - round online on the TRC website pages under “files”.',
+                            'Members should complete an incident report form ASAP after the incident occurs.Once completed it should be submitted to the VP of Member Relations, or any other Executive Committee member, to be forwarded to the Rules Committee for investigation.Keeping a copy for your records is recommended.',
+                            'The Rules Committee shall respond in writing within 15 days during the regular camping season, and 30 days during the off season.',
+                            'When filing a report, please clearly reference which rules have been alleged to have been violated, along with as much detail as possible.Including names, sites, etc',
+                        ]
+                    },
+                    {
+                        heading: 'Appealing a Decision',
+                        body: '',
+                        list: [
+                            'If the Member does not agree with the decision of the Rules Committee, they may appeal by completing the member complaint form attached to the Rules Committee’s written response and submit it to the Executive Committee for review.',
+                            'The Executive Committee shall respond in writing within 15 days during the regular camping season, and 30 days during the off season.',
+                            'If the member does not agree with the decision of the Executive Committee, they may appeal by completing the member grievance form attached to the Executive Committee’s written response and submitting it to the TRC Board of Directors for review.',
+                            'The Board of Directors shall respond in writing within 45 days during the regular camping season and within 45 days following the first regular Board of Directors Meeting if submitted during the off season.',
+                            'The TRC Secretary shall send a letter to the member(s) who had the concern/complaint regarding the final decision of the Board.',
+                        ]
+                    },
+                ],
+                href: '#consequence-d',
+                id: 'consequence-d',
                 imageUrl:
                     camping_1,
             },

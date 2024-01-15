@@ -7,7 +7,7 @@
       </div>
       <ul role="list" class="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
         <li v-for="part in section.parts" :key="part.href" class="flex flex-col gap-10 pt-12 sm:flex-row">
-          <img @click="toggleContentVisibility(part.id)" class="aspect-[4/5] flex-none w-52 rounded-2xl object-cover" :src="part.imageUrl" alt="" />
+          <img @click="toggleContentVisibility(part.id)" class="interactive-image aspect-[4/5] flex-none w-52 rounded-2xl object-cover" :src="part.imageUrl" alt="" />
           <div class="max-w-xl flex-auto">
               <h3 class="text-lg font-semibold leading-8 tracking-tight text-gray-900">{{ part.title }}</h3>
               <p class="mt-6 text-base leading-7 text-gray-600">{{ part.description }}</p>
@@ -15,6 +15,11 @@
                 <div v-for="content in part.content" :key="content.heading" class="mt-6" >
                   <h4 class="text-base font-semibold leading-6 tracking-wide text-gray-900">{{ content.heading }}</h4>
                   <div v-html="content.body" class="mt-2 text-sm leading-6 text-gray-600"></div>
+                  <div v-if="content.list">
+                    <ul role="list" class="mt-2 text-sm leading-6 text-gray-600">
+                      <li v-for="item in content.list" :key="item" class="mt-4">{{ item }}</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -45,3 +50,11 @@ function toggleContentVisibility(part_id) {
 }
 
 </script>
+
+<style scoped>
+
+.interactive-image {
+  cursor: pointer;
+}
+
+</style>

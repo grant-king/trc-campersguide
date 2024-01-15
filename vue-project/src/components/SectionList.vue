@@ -48,7 +48,12 @@ const sections = [
                     },
                     {
                         heading: 'Annual Membership',
-                        body: '<ul><li>Regular Membership: $195</li><br/><li>Seasonal Membership: $300</li></ul><br/>These membershipts entitle members to unlimited camping during the regular camping season. Current camping rules apply to all members.',
+                        body: 'Rates:',
+                        list: [
+                            'Regular Membership: $195',
+                            'Seasonal Membership: $300',
+                            'These membershipts entitle members to unlimited camping during the regular camping season. Current camping rules apply to all members.'
+                        ]
                     },
                     {
                         heading: 'Limited Member RV Reservations',
@@ -56,11 +61,21 @@ const sections = [
                     },
                     {
                         heading: 'Discounted Membership',
-                        body: 'TRC offers a $65 discount on annual membership fees and seasonal membership fees to senior citizens who are 65+, military veterans, members of the military, full-time students who are 21+, and people with disabilities. Documented proof of eligibility is required in order to receive this discount. <br /> <br/>Government or school-issued photo identification is acceptable proof of eligibility. Other forms of documentation may be accepted at the discretion of the Membership & Fees Committee.',
+                        body: '',
+                        list: [
+                            'TRC offers a $65 discount on annual membership fees and seasonal membership fees to senior citizens who are 65+, military veterans, members of the military, full-time students who are 21+, and people with disabilities. ',
+                            'Documented proof of eligibility is required in order to receive this discount. ',
+                            'Government or school-issued photo identification is acceptable proof of eligibility. Other forms of documentation may be accepted at the discretion of the Membership & Fees Committee.',
+                        ]
                     },
                     {
                         heading: 'Day Membership',
-                        body: 'The day membership fee is $10. This fee allows individuals to enjoy TRC for a day and is only valid until 6:00 PM at which time they must vacate the premises. Day membership is not available during any event weekends.'
+                        body: '',
+                        list: [
+                            'The day membership fee is $10.',
+                            'This fee allows individuals to enjoy TRC for a day and is only valid until 6:00 PM at which time they must vacate the premises.',
+                            'Day membership is not available during any event weekends.'
+                        ]
                     }
 
                 ],
@@ -143,11 +158,24 @@ const sections = [
                     },
                     {
                         heading: 'Other',
-                        body: '<ul><li>! Improperly parked or abandoned vehicles will be towed at the owner’s expense. </li><br/><li>!! Speed limit throughout the campground shall be 5 mph/8 kph. </li><br/><li>!!! The combination to the gate is not to be given out to anyone who is not a Regular member of TRC.</li></ul>'
+                        body: '',
+                        list: [
+                            'Improperly parked or abandoned vehicles will be towed at the owner’s expense.',
+                            'Speed limit throughout the campground shall be 5 mph/8 kph.',
+                            'The combination to the gate is not to be given out to anyone who is not a Regular member of TRC.',
+                        ]
                     },
                     {
                         heading: 'Recreational Vehicles (RVs)',
-                        body: '<ul><li>## RV Campers must use the TRC RV reservation system.</li><br/><li>## RVs in Limited camping locations must be occupied at all times.</li><br/><li>## RVs may not take additional vehicle parking and all towing vehicles must be unhooked and parked in the Vehicle Parking lot and not the RV lot.</li><br/><li>## Proof of TRC registration and payment must be displayed in the window of the RV/Trailer/Van (as well as the towing vehicle).</li><br/><li>## Grey water may not to be dumped within 50 feet of the nearest stream or riverbank.</li><br/><li>## The dumping of Black water is strictly prohibited.</li></ul>'
+                        body: '',
+                        list: [
+                            'RV Campers must use the TRC RV reservation system.',
+                            'RVs in Limited camping locations must be occupied at all times.',
+                            'RVs may not take additional vehicle parking and all towing vehicles must be unhooked and parked in the Vehicle Parking lot and not the RV lot.',
+                            'Proof of TRC registration and payment must be displayed in the window of the RV/Trailer/Van (as well as the towing vehicle).',
+                            'Grey water may not to be dumped within 50 feet of the nearest stream or riverbank.',
+                            'The dumping of Black water is strictly prohibited.',
+                        ]
                     },
                 ],
                 href: '#gen-info-e',
@@ -172,7 +200,11 @@ const sections = [
                     },
                     {
                         heading: 'Over-service of Alcohol',
-                        body: '<ul><li>The over serving of guests at a site may be viewed as a complicit action in any finding of a subsequent rule violation.</li><br/><li>In situations where site coordinators and/or servers over serve, either may be found in violation of the rules, even if there is no allegation of a rule violation.</li></ul>'
+                        body: '',
+                        list: [
+                            'The over serving of guests at a site may be viewed as a complicit action in any finding of a subsequent rule violation.',
+                            'In situations where site coordinators and/or servers over serve, either may be found in violation of the rules, even if there is no allegation of a rule violation.',
+                        ]
                     },
                     {
                         heading: 'Rowdy and Drunken Behavior',
@@ -231,11 +263,22 @@ const sections = [
                     },
                     {
                         heading: 'Fire Pits',
-                        body: '<ul><li>No fire pit may be moved without permission of a TRC Fire Marshall.</li><br/><li>No campfires may be lit in a new, moved or renovated fire pit until it has been approved by the TRC Fire Marshall.</li><br/><li>Fire pits must be located, and fires contained, in such a way that surrounding brush and trees are not affected</li></ul>'
+                        body: '',
+                        list: [
+                            'No fire pit may be moved without permission of a TRC Fire Marshall.',
+                            'No campfires may be lit in a new, moved or renovated fire pit until it has been approved by the TRC Fire Marshall.',
+                            'Fire pits must be located, and fires contained, in such a way that surrounding brush and trees are not affected',
+                        ]
                     },
                     {
                         heading: 'Fire Protection',
-                        body: '<ul><li>All seasonal campsites shall maintain one 5-gallon covered water pail at the entrance to their site and another near their fire pit.</li><br/><li>All Limited sites are provided with one 5-gallon covered water pail near their respective fire pits and members shall ensure they are full at all times.</li><br/><li>All sites that include a dining area shall maintain one or more ABC type fire extinguisher(s) totaling at least 10 pounds.</li><br/><li>All sites must agree to periodic inspections by the TRC Fire Marshall(s) and will comply with their recommendations.</li></ul>'
+                        body: '',
+                        list: [
+                            'All seasonal campsites shall maintain one 5-gallon covered water pail at the entrance to their site and another near their fire pit.',
+                            'All Limited sites are provided with one 5-gallon covered water pail near their respective fire pits and members shall ensure they are full at all times.',
+                            'All sites that include a dining area shall maintain one or more ABC type fire extinguisher(s) totaling at least 10 pounds.',
+                            'All sites must agree to periodic inspections by the TRC Fire Marshall(s) and will comply with their recommendations.',
+                        ]
                     },
                     {
                         heading: 'Fire Suppresion System',
@@ -565,11 +608,6 @@ const sections = [
                     {
                         heading: 'Self-Resolution',
                         body: ' Disputes arising internally among members of a campsite are expected to be resolved by those members without involving TRC or its officers',
-                        list: [
-                            '',
-                            '',
-                            '',
-                        ]
                     },
                     {
                         heading: 'Elevated Resolution',
@@ -742,10 +780,6 @@ const sections = [
                     {
                         heading: 'Overview',
                         body: 'The Seasonal Site Committee’s purpose is to oversee the administration of Seasonal Sites at TRC. This is a standing committee organized under the VP of Operations, and members are appointed by the board of directors. The committee has the authority to add or remove members during the year.',
-                        list: [
-                            '',
-                            '',
-                        ]
                     },
                     {
                         heading: 'Purpose',
@@ -1112,6 +1146,7 @@ const sections = [
             },
         ]
     },
+    /*
     {
         title: 'Section Title',
         description: 'This section contains the',
@@ -1166,5 +1201,6 @@ const sections = [
             },
         ]
     },
+    */
 ]
 </script>

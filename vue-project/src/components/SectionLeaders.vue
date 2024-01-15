@@ -74,12 +74,5 @@ import camping_1 from '@/assets/camping_1.webp'
       imageUrl:
         camping_1,
     },
-    {
-      id: 8,
-      title: 'Bylaws',
-      href: '#bylaws',
-      imageUrl:
-        camping_1,
-    },
   ]
   </script>

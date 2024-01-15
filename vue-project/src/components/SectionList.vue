@@ -345,5 +345,59 @@ const sections = [
             },
         ]
     },
+    {
+        title: 'Photography and Video Recording',
+        description: 'This section contains the rules regarding photography and video recording at the campground.',
+        id: 'photography',
+        parts: [
+            {
+                title: 'Expectation of Privacy',
+                description: 'This part describes the rules regarding photography and video recording at the campground.',
+                content: [
+                    {
+                        heading: 'Expectation of Privacy',
+                        body: '',
+                        list: [
+                            'TRC has been set up as a safe place for all those that wish to be safe and anonymous from the outside world. To that end, there is a reasonable expectation of privacy when members are on site; privacy to the extent that their image will not be recorded in any fashion unless they have given their permission.',
+                            'Only take photographs or video recordings of members with their permission. While it is recognized that camp property does not include the beach, please be respectful at the beach as well, and consider asking before recording someone’s image.',
+                        ]
+                    },
+                ],
+                href: '#photography-a',
+                id: 'photography-a',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Rules Pertaining to Drones, unmaned aircraft, photos, and video',
+                description: 'This part describes the rules regarding drones, unmaned aircraft, photos, and video at the campground.',
+                content: [
+                    {
+                        heading: 'Drones',
+                        body: '',
+                        list: [
+                            'Drones, or any unmanned aircraft, are strictly prohibited, unless explicit, written permission from the VP of Operations is granted.',
+                            'Drones and unmanned aircraft are not permitted to be flown in parking areas, because of the potential liability to the camp by someone who damages another member’s property.',
+                            'Drones and unmanned aircraft will not be allowed to be transported to the beach areas via camp property unless you have been granted special, written permission from the VP of Operations.',
+                        ]
+                    },
+                    {
+                        heading: 'Video and Photography',
+                        body: '',
+                        list: [
+                            'Video recording of any member without their written permission is strictly prohibited.',
+                            'Images posted on social media must have written consent of those in the photographs.',
+                            'Large group pictures used for the purpose of marketing shall be free of facial identification unless VP of Marketing receives written consent from those in the photo.',
+                            'Pictures and video taken for the purpose of rule violations, policy violations, and criminal activity, do not pertain to this section. Posting of these violations on social media is the exclusive right of the Executive Committee.',
+                        ]
+                    },
+                ],
+                href: '#photography-b',
+                id: 'photography-b',
+                imageUrl:
+                    camping_1,
+            },
+        ]
+    },
 ]
 </script>

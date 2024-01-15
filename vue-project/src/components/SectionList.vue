@@ -731,54 +731,382 @@ const sections = [
         ]
     },
     {
-        title: 'Section Title',
+        title: 'Seasonal Camping',
         description: 'This section contains the',
-        id: 'sectionid',
+        id: 'seasonal-camping',
         parts: [
             {
-                title: 'Part A Title',
-                description: 'This part describes',
+                title: 'Seasonal Sites Committee',
+                description: 'This part describes the purpose of the Seasonal Sites Committee.',
                 content: [
                     {
-                        heading: 'Item Heading',
-                        body: '',
+                        heading: 'Overview',
+                        body: 'The Seasonal Site Committee’s purpose is to oversee the administration of Seasonal Sites at TRC. This is a standing committee organized under the VP of Operations, and members are appointed by the board of directors. The committee has the authority to add or remove members during the year.',
                         list: [
                             '',
                             '',
                         ]
                     },
+                    {
+                        heading: 'Purpose',
+                        body: '',
+                        list: [
+                            'To maintain a waiting list of members who want to join an existing or occupy an available Seasonal Site.',
+                            'To approve new members of Seasonal Sites subject to application and approval by the Committee. ',
+                            'To create and maintain a guide of best practices for Seasonal Sites to be provided to Seasonal Site coordinators prior to the beginning of camping season.',
+                            'To help resolve unsettled disputes between members of Seasonal Sites.',
+                        ]
+                    },
+                    {
+                        heading: 'Scope',
+                        body: 'The Seasonal Site Committee will only assist in Seasonal Site affairs when it deems it absolutely necessary. Serious issues may be referred to the Rules Committee, depending on the severity of the situation. ',
+                    },
                 ],
-                href: '#part-a',
-                id: 'part-a',
+                href: '#seasonal-camping-a',
+                id: 'seasonal-camping-a',
                 imageUrl:
                     camping_1,
             },
             {
-                title: 'Part B Title',
-                description: 'This part describes',
+                title: 'Sites',
+                description: 'This part describes seasonal site availability, the waiting list, site assignment, and adding new members to Seasonal Sites.',
                 content: [
                     {
-                        heading: 'Item Heading',
-                        body: '',
+                        heading: 'Limited Availability',
+                        body: 'TRC has established a limited number of campsites on our property north of the highway designated as “Seasonal”. They are intended to be occupied by Regular members in good standing who will be camping frequently throughout the season and who agrees to maintain the site and abide by all the Conditions of Occupancy.',
+                    },
+                    {
+                        heading: 'Application & Wait List',
+                        body: 'The waiting list includes those who are approved to be offered a vacant Seasonal Site when available. Seasonal Sites become available when:',
                         list: [
-                            '',
-                            '',
-                            '',
+                            '▪ All previous members vacate or are removed from the site.',
+                            '▪ A Site has been deemed abandoned per the Abandonment process.',
+                            '▪ Any other reason a site has no current members',
+                            'To be added to the waiting list, the Member must be a Regular or Seasonal Member in good standing, with all fees paid in full ',
+                            'Anyone wishing to be added to the waiting list must contact the Chair of the Seasonal Site Committee',
                         ]
                     },
                     {
-                        heading: 'Item Heading',
+                        heading: 'Assignment of Sites',
                         body: '',
                         list: [
-                            '',
-                            '',
-                            '',
-                            '',
+                            'Assignment of a site in no way confers Ownership of that portion of TRC’s property to the members granted Occupancy. All development of the site is to be done at the assigned member’s own risk, expense and in accordance with the Development Committee’s approval. ',
+                            'Upon acceptance of the Application for Occupancy, the applicants will register their campsite name, site members, and select a Site Coordinator through whom all future TRC business will be conducted. All registered members are to provide contact information (email) and sign the registration document agreeing to abide by all of TRC’s Bylaws, Standing Rules and Conditions of Occupancy.',
+                            'At the termination of occupancy (either by their own or TRC’s initiative) the assigned members are responsible for the removal of all debris, structures, or improvements. Any property, approved structures, or improvements left behind after a reasonable period granted for their removal will become an integral part of that site for use by the next occupants at their discretion.',
+                        ]
+                    },
+                    {
+                        heading: 'Adding New Members to existing Seasonal Sites',
+                        body: '',
+                        list: [
+                            'A Seasonal Site Membership Application must be completed by both the applicant and the Site Coordinator.',
+                            'The Site Coordinator must submit the application to the committee chair to request the approval of the addition of the new member to their site',
+                            'The Committee will review the application and inform the Site Coordinator of their decision. If approved, the applicant shall be considered a Seasonal Conditional Member, subject to the conditions outlined in this Guide.',
+                            'Any Committee decisions may be appealed according to the appeals process outlined in the Campers Guide. ',
                         ]
                     },
                 ],
-                href: '#part-b',
-                id: 'part-b',
+                href: '#seasonal-camping-b',
+                id: 'seasonal-camping-b',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Conditions of Occupancy for Seasonal Campsites',
+                description: 'This part contains information about seasonal campsite occupancy, membership, site coordinators, conditional members, seasonal campsite development, and more.',
+                content: [
+                    {
+                        heading: 'Seasonal Campsite Occupancy',
+                        body: '',
+                        list: [
+                            'All groups of members occupying a TRC seasonal campsite will appoint a Site Coordinator as a point of contact who is responsible to pass information/ concerns and collect fees on behalf of the campsite. ',
+                            'Dates for the seasonal setup and closure of seasonal campsites shall be established by the Board of Directors.',
+                            'At the end of the season all sites are to be left closed in a clean and orderly state. User fees must be paid prior to closing. ',
+                            'A fee, established by the Board of Directors, will be charged to member(s) for the removal and storage of any abandoned items. Items not claimed within 30 days will become the property of TRC. ',
+                        ]
+                    },
+                    {
+                        heading: 'Membership',
+                        body: 'All registered members of the campsite shall keep their TRC membership valid and continuous while claiming occupancy of a TRC seasonal campsite',
+                    },
+                    {
+                        heading: 'Site Coordinators Responsibilities',
+                        body: ' Site coordinators are the principal liaison between their site, its members, and TRC. The principal responsibilities of site coordinators are to:',
+                        list: [
+                            '▪ Maintain their site and coordinate the activities of the other members of their site.',
+                            '▪ Inform Operations of who the members and/or conditional members of their site.',
+                            '▪ Be the point of contact for resolution of any incidents involving the members of their site.',
+                            '▪ Ensure adherence to all site occupancy, maintenance, and membership requirements.',
+                        ]
+                    },
+                    {
+                        heading: 'Site Coordinator Prerequisites',
+                        body: '',
+                        list: [
+                            'No member of a seasonal site may be appointed coordinator unless they have been a member of said site for a minimum of 2 consecutive seasons. Exceptions to this rule require express approval by the VP of Ops (e.g. a site coordinator leaves a site and the remaining site members have only been with the site for 1 season). A regular member on the waiting list is exempt from this rule. ',
+                            'Site coordinators must be on site for a minimum of two nights per month.',
+                        ]
+                    },
+                    {
+                        heading: 'Special Rules Regarding Seasonal Sites with a Single Member',
+                        body: '',
+                        list: [
+                            'When a seasonal site’s membership consists of a single member who will be vacating their site at any time during the season, that member may not, under any circumstances, sell, trade, or add any new regular member as the site coordinator in order to ‘pass along’ the site to a person of their choice. ',
+                            'The only exception will be if the transfer will be to the next member on the waiting list and approval is granted by the Seasonal Site Committee. ',
+                            'Otherwise, the site will be considered ‘abandoned’ and the seasonal site will be granted to the next qualified member awaiting site placement.',
+                        ]
+                    },
+                    {
+                        heading: 'Conditional Members',
+                        body: 'Conditional members are regular members who wish to join an existing seasonal site. The requirements to become a conditional member with a seasonal site are as follows:',
+                        list: [
+                            '▪ They must have been a regular member in good standing with fees paid in full for at least one season.',
+                            '▪ The Site Coordinator for the seasonal site must inform the VP of Ops regarding the addition of a conditional member and have their name added to the sign-in sheet.',
+                            '▪ One must be a Conditional member of a season campsite for one full calendar year before being recognized as an official seasonal member of the site.',
+                            '▪ Once a conditional member has completed a full calendar year with a site, they may become a regular member of the site. This change must be reported to the SSC. A member cannot be a conditional member of the same site for more than two consecutive seasons. ',
+                            '▪ Regular members cannot be involuntarily removed from the site without a unanimous vote of the other regular members, an action by the board, or a hearing before the SSC.',
+                        ]
+                    },
+                    {
+                        heading: 'Restrictions of Conditional Membership',
+                        body: '',
+                        list: [
+                            'Conditional members may not bring guests to their site without a seasonal member of the site being present at TRC. Visitors are allowed for periods of less than six hours and not overnight for the purpose of socialization or site work but must have their own camp site.',
+                            'A conditional member may not be selected as a site coordinator unless an exception is granted by the SSC and approved by the board. ',
+                            'ALL exceptions to these rules must be approved by the SSC and the board.',
+                        ]
+                    },
+                    {
+                        heading: 'Seasonal Campsite Development',
+                        body: '',
+                        list: [
+                            'No new campsites may be developed, land cleared, or tents pitched in undeveloped areas without the prior approval of the Development Committee.',
+                            'No natural materials, native to the property should be moved or disturbed without prior approval of the Development Committee.',
+                            'Seasonal campsites abutting property boundaries must be aware of those boundaries and must maintain a natural buffer between the properties and other campsites. ',
+                            'Building of any new structure or platform of any kind without a permit from the Development Committee shall constitute the immediate suspension of membership of all those involved until further investigation by the Rules Committee. The Rules Committee will report their findings at the next Board of Directors meeting. Those found to be complacent in this infraction shall have their membership revoked and reviewed after a period of one year. ',
+                            'Any site that has received a development permit from VP of Development, must post said permit in a conspicuous spot at the entrance to the site performing construction.',
+                        ]
+                    },
+                    {
+                        heading: 'Seasonal Site Occupancy',
+                        body: 'No one may reside at TRC. At any time, the Executive Committee may request proof of residency.',
+                    },
+                    {
+                        heading: 'Minimum Occupancy',
+                        body: '',
+                        list: [
+                            'Seasonal campsites must be occupied by registered members who must sign in upon arrival and are actively camping for at least 4 nights in each calendar month. ',
+                            'The site may not remain unoccupied for more than 19 consecutive days.',
+                            'Failure to comply with the minimum occupancy rule and sign-in procedures may result in the loss of Seasonal camping privileges. ',
+                            'Any exceptions to these requirements must be reviewed, approved, and documented by the VP of Operations. Decisions of the VP may be appealed to the board.',
+                        ]
+                    },
+                    {
+                        heading: 'Guests',
+                        body: '',
+                        list: [
+                            'Members are responsible for the behavior and payment of camping fees for their guest(s).',
+                            'Seasonal sites that have guests who do not pay their camping fees may be fined $20/night in addition to any unpaid camping fees.',
+                            'No guest may be allowed on a seasonal site prior to the arrival or after the departure of a member of that site without prior verbal or written notification given to the VP of Operations.',
+                        ]
+                    },
+                    {
+                        heading: 'Guest Memberships',
+                        body: '',
+                        list: [
+                            'A guest membership is a limited, non-voting membership which may be purchased by any regular member.',
+                            'All guests must meet the membership requirements of TRC and register with the camp host upon arrival.',
+                            'At registration, the guest must be accompanied by the Sponsoring member. ',
+                        ]
+                    },
+                    {
+                        heading: 'Enforcement of Occupancy Conditions (Sections 3-11)',
+                        body: '',
+                        list: [
+                            'If a site has failed to meet the requirements of this section, the VP of Operations or their designee will notify the site coordinator and ask them to remedy the situation within 14 days.',
+                            'If after the waiting period the site is still not in compliance or violates this section a second time during the same season, the VP of Operations or their designee will notify all registered campsite members and ask them to remedy the situation within 14 days.',
+                            'If after the second waiting period, the site is still not in compliance or a third violation occurs during the same season, the VP of Operations will recommend to the Board of Directors to revoke the site membership of all registered members.',
+                            'Site members may ask the Board of Directors SSC for a hardship exemption from the Minimum Occupancy obligations for up to a single season. ',
+                        ]
+                    },
+                    {
+                        heading: 'Enforcement of Membership Conditions (Section 2)',
+                        body: '',
+                        list: [
+                            'Regular members of TRC will be notified by the treasurer when their membership is within 30 days of expiring.',
+                            'If a seasonal campsite member’s membership with TRC has lapsed for more than 30 days, the member will be removed from the list of registered members for the campsite.',
+                            'If the site coordinator is removed from a seasonal campsite, the remaining eligible site members are to nominate their own choice for coordinator. If the remaining eligible site members are unable to reach a decision by the next Board meeting, the Board of Directors will select the new coordinator from the remaining eligible site members.',
+                            'If there are no eligible members registered for a site, the site will be considered abandoned.',
+                            'Seasonal members that wish to camp with an expired membership must pay the limited camping fees of TRC. These fees may and will be credited towards membership dues if paid in full within 30 days.',
+                        ]
+                    },
+                    {
+                        heading: 'Notification',
+                        body: 'Whenever it is necessary to notify a regular member of TRC, the person responsible to give notice must do all of the following:',
+                        list: [
+                            '▪ Send a copy of the notice via the United States Postal Service to the address provided on the member’s most recent application.',
+                            '▪ Leave a copy of the notice at the member’s seasonal campsite.',
+                            '▪ Send an email to the address provided on the member’s most recent application.',
+                            'The person responsible for giving notice is encouraged to use any means which is likely to inform the member of the situation; however, the preceding requirements for notice must be met. ',
+                        ]
+                    },
+                ],
+                href: '#seasonal-camping-c',
+                id: 'seasonal-camping-c',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Seasonal Site Maintenance & Upkeep Policy',
+                description: 'This part contains information about seasonal site maintenance and upkeep, including fire safety, water usage, electrical, trees, and non-compliance.',
+                content: [
+                    {
+                        heading: 'General Requirements',
+                        body: '',
+                        list: [
+                            'All Seasonal Sites shall maintain a reasonably clean and tidy site free of obvious waste and visual abandonment.',
+                            'Any designated sleeping area shall be maintained and setup during the regular open camping season period. Without this, the minimum occupancy rule cannot be in effect for the site.',
+                            'There shall be a reasonable use or decorative function for items at the site. There shall be no collection of refuse or other items of obvious trash-like status. ',
+                            'All sites shall be maintained so that they are usable and accessible.',
+                            'Reasonable exceptions may be granted by either the VP of Operations or the VP of Development. These include, but are not limited to, construction, damage, health, etc.',
+                        ]
+                    },
+                    {
+                        heading: 'Fire Safety',
+                        body: '',
+                        list: [
+                            'If a site has enclosed structures with electrical wiring or propane appliances, each of these structures must have an ABC type fire extinguisher inside.',
+                            'Each site must have a minimum of two 5-gallon fire buckets filled with water on site at all times. One is to be kept at the main entrance and the other near the fire pit.',
+                            'Any site with either a fire suppression water connection or water tank shall have a hose connected that is of sufficient length to reach all points in the site. This hose should be affixed to either a red 4x4 post or to a section of structure wall painted red.',
+                            'The fire marshal will inspect all seasonal sites at least once per year to ensure compliance with the fire safety policy. Any violations need to be corrected within 14 days.',
+                        ]
+                    },
+                    {
+                        heading: 'Water Usage',
+                        body: '',
+                        list: [
+                            'Seasonal sites may maintain a water tank for the purposes of fire suppression',
+                            'Black water may not be dumped anywhere on TRC property and is to be disposed of in accordance with county and state laws.',
+                            'Gray water is to be disposed of appropriately and never dumped within 50 feet of a stream or riverbank.',
+                            'Any device used for the collection of water for decorative purposes larger than a common bird bath shall require approval from the VP of Development.',
+                            'Pools, hot tubs, and the like, are prohibited',
+                        ]
+                    },
+                    {
+                        heading: 'Electrical',
+                        body: '',
+                        list: [
+                            'Electrical wiring shall be installed in a manner to prevent accidental electrocution and fire. This includes using appropriately rated extension cords and UFB (Underground Feeder – Burial) wire were exposed to the elements or buried.',
+                            'Each site may connect to the camp grid after paying the annual fee.',
+                            'Each site is limited to a single 20A 120V connection to the grid. Sites hosting TRC events may use additional connections for the duration of the party. Such additional usage should be coordinated with the VP of Operations.',
+                            'High wattage appliances such as electric heaters, microwaves, griddles, air conditioners and the like are not to be connected to the TRC grid at any time. Limited usage of power tools is acceptable, provided that such usage does not overtax the grid section.',
+                            'Personal generators must not be audible to neighbors after 10 PM',
+                        ]
+                    },
+                    {
+                        heading: 'Trees',
+                        body: '',
+                        list: [
+                            'Standing trees (dead or alive) are not to be felled without the approval of the Vice President of Development. Submit a maintenance request form to request evaluation of problem trees.',
+                            'A rubber or wood buffer must be used when affixing cables, chains, or similar metal items to a tree.',
+                            'Do not drive any nails, screws, or other fasteners into trees. These items can damage equipment or cause injury when felling trees.',
+                            'Ensure that tarp lines and other items tied to trees are not causing damage. Action should be taken as soon as possible if any line is girdling or otherwise damaging the tree',
+                        ]
+                    },
+                    {
+                        heading: 'Non-Compliance',
+                        body: '',
+                        list: [
+                            'If a site appears to be in noncompliance with the above rules, the VP of Operations or the VP of Development shall submit a report to the Site Coordinator, Seasonal Site Committee, and the VP of Member Relations.',
+                            'The site coordinator shall have seven (7) days to respond with an action plan to rectify the situation. If the site coordinator does not agree that the site is out of compliance, an appeal may be filed with the Seasonal Site Committee.',
+                            'The VP initiating the action and the VP of Member relations will work to approve the action plan within seven (7) days. ',
+                            'Once the action plan is approved, the site members shall have thirty (30) days to show significant improvement in the condition of the site. After this period, the initiating VP and VP of Member Relations will reevaluate the situation to determine if further remedial action is necessary.',
+                            'If, after thirty (30) days, no reasonable effort has been made to maintain the site, the site abandonment procedure shall begin.',
+                            'Any situation that places the life or health of a member at risk, such as bare wires, severely deficient structures, and the like may require more immediate remediation.',
+                        ]
+                    },
+                ],
+                href: '#seasonal-camping-d',
+                id: 'seasonal-camping-d',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Alcohol Service',
+                description: 'All individuals are held to responsible alcohol service and consumption at their sites.',
+                content: [
+                    {
+                        heading: 'Responsible Alcohol Service',
+                        body: '',
+                        list: [
+                            'Site members are responsible for responsible alcohol service at their sites.',
+                            'Alcohol is not to be provided to any person who is already intoxicated. Service of alcohol to an already intoxicated person shall be considered a violation of camp rules, even if no other infraction occurs as a result.',
+                            'Overservice of alcohol by a site will be considered a complicit act to any rule violations by the guest or visitor who was overserved. If any guest served by a site member(s) commits a rules violation, determined to be principally due to over-intoxication, said site member(s) may be considered complicit in the infraction.)',
+                            'Sites with repeated violations of the policy may have camping privileges suspended for those site members in violation.',
+                        ]
+                    },
+                ],
+                href: '#seasonal-camping-e',
+                id: 'seasonal-camping-e',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Overwinter Storage Policy',
+                description: 'This part describes the overwinter storage policy and for seasonal sites.',
+                content: [
+                    {
+                        heading: 'Required Actions',
+                        body: '',
+                        list: [
+                            'By October 15th (no exceptions) of a given camping season, all seasonal sites shall be disassembled to a reasonable level of security for the winter months.',
+                            'Sites are required to stay disassembled in this matter until the “Soft Opening” date announced by the VP of Operations. ',
+                            'This includes the following: tarps, unsecured items and property, camping gear (tents, etc.), eating areas, water suppression system, water storage systems, and any other property capable of causing damage to neighboring sites or TRC property over the winter months.',
+                            'The VP of Operations or their designee(s) shall do periodic walk-throughs in the month of October to ensure sites are securely broken down. ',
+                            'If the members of a site have a question as to the sufficiency of their winterizing procedures, it is their responsibility to inquire upon the VP of Operations for clarification and/or approval of a given procedure.',
+                        ]
+                    },
+                    {
+                        heading: 'Non-Compliance',
+                        body: '',
+                        list: [
+                            'Any site not in compliance with this policy (aka “Winter Teardown”) shall be considered abandoned and subject to the TRC Abandonment Policy, unless PRIOR arrangements have been made with the VP of Operations.',
+                            'TRC shall be reimbursed for any and all costs incurred in order to secure a seasonal site in the winter months. Any amounts owed to TRC shall be divided equally among the members currently registered with the site. Those members shall not camp at TRC until their portion of the debt has been paid.',
+                        ]
+                    },
+                ],
+                href: '#seasonal-camping-f',
+                id: 'seasonal-camping-f',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'TRC Abandonment Procedure',
+                description: 'This part describes the TRC abandonment procedure for seasonal sites.',
+                content: [
+                    {
+                        heading: 'Determination of Abandonment',
+                        body: 'Once a site has been deemed abandoned by the VP of Operations, either by:',
+                        list: [
+                            '▪ Notification by the current site members of intent to abandon.',
+                            '▪ Site Maintenance Policy violations.',
+                            '▪ Other conditions under which a site may have no members.',
+                        ]
+                    },
+                    {
+                        heading: 'Abandonment Procedure',
+                        body: '',
+                        list: [
+                            'A “Letter of Abandonment” shall be sent via email to all site members.',
+                            'Site members have 72 hours from the date of the email to respond to the VP of Operations with an action plan of claiming their belongings.',
+                            'Once the VP of Operations approves the action plan, exiting site members shall remove their personal belongings and refuse from the site on the date(s) and time(s) agreed upon in said action plan. The VP of Operations, in their sole discretion, may extend the time permitted for this removal and clean-up process. However, under no circumstances shall the allotted time exceed thirty (30) days.',
+                            'If there is no response from any site member within seventy-two (72) hours of receipt of the dated Letter of Abandonment, the site shall be considered abandoned and all items left on the site become property of TRC. ',
+                            'TRC shall be reimbursed for any and all costs incurred relating to the abandonment. Any amounts owed to TRC shall be divided equally among the site members currently registered with the abandoned site. Those members may not camp at TRC until their portion of the debt has been paid.',
+                        ]
+                    },
+                ],
+                href: '#seasonal-camping-g',
+                id: 'seasonal-camping-g',
                 imageUrl:
                     camping_1,
             },

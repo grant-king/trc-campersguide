@@ -525,35 +525,46 @@ const sections = [
         ]
     },
     {
-        title: 'Section Title',
-        description: 'This section contains the',
-        id: 'sectionid',
+        title: 'Rules Violations and Internal Dispute Resolution',
+        description: 'This section contains the rules regarding rules violations and internal dispute resolution at the campground.',
+        id: 'violations',
         parts: [
             {
-                title: 'Part A Title',
-                description: 'This part describes',
+                title: 'Rule Violations',
+                description: 'This part describes the procedure for handling rule violations.',
                 content: [
                     {
-                        heading: 'Item Heading',
+                        heading: 'Major Violations',
+                        body: 'Any member who violates the Bylaws, Rules or Regulations of TRC, local, state or federal law may have their membership immediately terminated (and be asked to leave the property). Critical violations include, but are not limited to:',
+                        list: [
+                            '!! Violent acts or verbal threats against other members, their guests, their property and neighboring property owners.',
+                            '!! Taking or using items without permission (aka theft), or possession of stolen items.',
+                            '!! Verifiable use or sale of illegal drugs on TRC property.',
+                            'Illegal is defined as those substances prohibited by State or Federal law, with State laws taking precedence when applicable (e.g. cannabis)',
+                            'Violators may also be subject to Criminal and or Civil prosecution.',
+                        ]
+                    },
+                    {
+                        heading: 'Rules Infractions Requiring Disciplinary Action',
                         body: '',
                         list: [
-                            '',
-                            '',
+                            'All other rule infractions requiring disciplinary action shall be forwarded to the VP of Member Relations or Rules Committee for investigation and deliberation. Consequences not involving the termination or suspension of membership shall be handed down by the Rules Committee. If the Rules Committee recommends that termination or suspension of membership is appropriate, the matter shall be presented to the Board of Directors by the VP of Member Relations for discussion and vote.',
+                            'The Rules Committee shall be a continuous, year-round committee. The Chair of the Committee shall be the VP of Member Relations, per the bylaws.',
                         ]
                     },
                 ],
-                href: '#part-a',
-                id: 'part-a',
+                href: '#violations-a',
+                id: 'violations-a',
                 imageUrl:
                     camping_1,
             },
             {
-                title: 'Part B Title',
-                description: 'This part describes',
+                title: 'Internal Dispute Resolution',
+                description: 'This part describes the procedure for handling internal disputes.',
                 content: [
                     {
-                        heading: 'Item Heading',
-                        body: '',
+                        heading: 'Self-Resolution',
+                        body: ' Disputes arising internally among members of a campsite are expected to be resolved by those members without involving TRC or its officers',
                         list: [
                             '',
                             '',
@@ -561,18 +572,19 @@ const sections = [
                         ]
                     },
                     {
-                        heading: 'Item Heading',
-                        body: '',
+                        heading: 'Elevated Resolution',
+                        body: 'Any disputes arising from the aforementioned conditions, that cannot be resolved between the parties involved shall, in the following order, present their issue in writing, for consideration to the:',
                         list: [
-                            '',
-                            '',
-                            '',
-                            '',
+                            'i. Seasonal Site Committee',
+                            'ii. Rules Committee',
+                            'iii. Vice President the issue falls under',
+                            'iv. Executive Committee for private matters of health, finance, etc.',
+                            'v. Board of Directors',
                         ]
                     },
                 ],
-                href: '#part-b',
-                id: 'part-b',
+                href: '#violations-b',
+                id: 'violations-b',
                 imageUrl:
                     camping_1,
             },

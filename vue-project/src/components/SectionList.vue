@@ -399,5 +399,346 @@ const sections = [
             },
         ]
     },
+    {
+        title: 'Campground Maintenance and Wildlife Habitat Enhancement',
+        description: 'This section contains the rules regarding campground maintenance and wildlife habitat enhancement at the campground.',
+        id: 'campground',
+        parts: [
+            {
+                title: 'Policy Purpose, Scope, and Background',
+                description: 'This part describes the purpose, scope, and background of the policy.',
+                content: [
+                    {
+                        heading: 'Purpose',
+                        body: 'Adopt a policy of leaving some fallen, or damaged but standing tree snags to decay in order to provide habitat for insects, birds, small mammals, and amphibians. To do so, we will need to identify areas of the campground in which to leave damaged and fallen trees for this purpose.',
+                    },
+                    {
+                        heading: 'Scope',
+                        body: 'This Policy Proposal is meant only to address issues surrounding the removal of fallen and damaged trees. Existing healthy trees anywhere on the campgrounds are to be left untouched in accordance with our Standing Rules.',
+                    },
+                    {
+                        heading: 'Background',
+                        body: 'riangle Recreation Camp suffers yearly winter damage to trees (primarily older alders) requiring significant effort to clear. This policy would limit the work required to clean up weather-damaged trees and at the same time provide enhanced habitat to certain wildlife as required in our Conditional Use Permit.',
+                    },
+                ],
+                href: '#campground-a',
+                id: 'campground-a',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Proposal',
+                description: 'This part describes the wildlife habitat enhancement proposal.',
+                content: [
+                    {
+                        heading: 'Policy Proposal',
+                        body: '',
+                        list: [
+                            'Given that the purpose of our organization is to provide a safe and enjoyable outdoor environment for our members and guests, any damaged trees that pose a threat to the safety of our members and guests should be removed or rendered harmless in a manner consistent with TRC guidelines.',
+                            'Given that a significant portion of our property is already designated NGPA (Native Growth Protection Area) and therefore not available for normal camping activities, it is appropriate to limit damaged tree removal in those areas in order to provide enhanced habitat for small wildlife.',
+                        ]
+                    },
+                ],
+                href: '#campground-b',
+                id: 'campground-b',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Guidelines for Non-NPGA Areas',
+                description: 'This part describes the guidelines for non-NPGA areas.',
+                content: [
+                    {
+                        heading: 'Non-NPGA Area Guidelines',
+                        body: '',
+                        list: [
+                            'Campground areas that are freely available for normal camping activity should be cleared of fallen and damaged trees in a manner suitable to our needs. This includes ensuring trails are kept clear, safe and passable, common areas are clear and safe for use, and campsites are safe and accessible.',
+                            'The logs resulting from this maintenance will be disposed of or used for the benefit of our membership (e.g. firewood) as the Board of Directors sees fit by their own action or delegation to a Committee.',
+                        ]
+                    },
+                ],
+                href: '#campground-c',
+                id: 'campground-c',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Guidelines for NGPA Areas',
+                description: 'This part describes the guidelines for NGPA areas.',
+                content: [
+                    {
+                        heading: 'NGPA Area Guidelines',
+                        body: '',
+                        list: [
+                            'Fallen trees which lie entirely within an NGPA area should be left in place to provide habitat and help limit foot traffic within the restricted area except where the accumulation of those falls may pose a fire hazard.',
+                            'Damaged trees (‘Leaners’) should be rendered harmless by cutting at a height that would leave a snag (stump) which, if it later fell over, would fall entirely within the NGPA area.',
+                            'The logs resulting from this maintenance will be disposed of or used for the benefit of our membership (e.g. firewood) as the Board of Directors sees fit by their own action or delegation to a Committee.',
+                        ]
+                    },
+                ],
+                href: '#campground-d',
+                id: 'campground-d',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Additional Habitat Enhancement',
+                description: 'Members are encouraged to provide additional nesting boxes for birds, bats or small mammals in accordance with State and County standards',
+                content: [
+                    {
+                        heading: 'Ask a Board Member for more information about this.',
+                        body: '',
+                        list: [
+                            '',
+                        ]
+                    },
+                ],
+                href: '#campground-e',
+                id: 'campground-e',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Nuisance Animals',
+                description: 'Limit damage caused by opportunistic animals such as raccoons and bears.',
+                content: [
+                    {
+                        heading: 'Harm Reduction',
+                        body: 'Members are encouraged to limit damage to their property caused by opportunistic wildlife by:',
+                        list: [
+                            'i. Securely storing food in lockable containers.',
+                            'ii. Cleaning dishes and cooking surfaces (BBQs) after meals.',
+                            'iii. Not keeping garbage in their site over-night.',
+                        ]
+                    },
+                    {
+                        heading: 'Additional Measures',
+                        body: 'Campsites which follow these guidelines and continue to suffer damage due to persistent nuisance animals (e.g. raccoons) should approach a member of the Executive Committee to discuss arrangements for the humane capture and removal of said animals from the campgrounds.',
+
+                    },
+                ],
+                href: '#campground-f',
+                id: 'campground-f',
+                imageUrl:
+                    camping_1,
+            },
+        ]
+    },
+    {
+        title: 'Section Title',
+        description: 'This section contains the',
+        id: 'sectionid',
+        parts: [
+            {
+                title: 'Part A Title',
+                description: 'This part describes',
+                content: [
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                        ]
+                    },
+                ],
+                href: '#part-a',
+                id: 'part-a',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Part B Title',
+                description: 'This part describes',
+                content: [
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                            '',
+                        ]
+                    },
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                            '',
+                            '',
+                        ]
+                    },
+                ],
+                href: '#part-b',
+                id: 'part-b',
+                imageUrl:
+                    camping_1,
+            },
+        ]
+    },
+    {
+        title: 'Section Title',
+        description: 'This section contains the',
+        id: 'sectionid',
+        parts: [
+            {
+                title: 'Part A Title',
+                description: 'This part describes',
+                content: [
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                        ]
+                    },
+                ],
+                href: '#part-a',
+                id: 'part-a',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Part B Title',
+                description: 'This part describes',
+                content: [
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                            '',
+                        ]
+                    },
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                            '',
+                            '',
+                        ]
+                    },
+                ],
+                href: '#part-b',
+                id: 'part-b',
+                imageUrl:
+                    camping_1,
+            },
+        ]
+    },
+    {
+        title: 'Section Title',
+        description: 'This section contains the',
+        id: 'sectionid',
+        parts: [
+            {
+                title: 'Part A Title',
+                description: 'This part describes',
+                content: [
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                        ]
+                    },
+                ],
+                href: '#part-a',
+                id: 'part-a',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Part B Title',
+                description: 'This part describes',
+                content: [
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                            '',
+                        ]
+                    },
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                            '',
+                            '',
+                        ]
+                    },
+                ],
+                href: '#part-b',
+                id: 'part-b',
+                imageUrl:
+                    camping_1,
+            },
+        ]
+    },
+    {
+        title: 'Section Title',
+        description: 'This section contains the',
+        id: 'sectionid',
+        parts: [
+            {
+                title: 'Part A Title',
+                description: 'This part describes',
+                content: [
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                        ]
+                    },
+                ],
+                href: '#part-a',
+                id: 'part-a',
+                imageUrl:
+                    camping_1,
+            },
+            {
+                title: 'Part B Title',
+                description: 'This part describes',
+                content: [
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                            '',
+                        ]
+                    },
+                    {
+                        heading: 'Item Heading',
+                        body: '',
+                        list: [
+                            '',
+                            '',
+                            '',
+                            '',
+                        ]
+                    },
+                ],
+                href: '#part-b',
+                id: 'part-b',
+                imageUrl:
+                    camping_1,
+            },
+        ]
+    },
 ]
 </script>

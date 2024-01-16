@@ -192,25 +192,22 @@
   } from '@headlessui/vue'
   import {
     Bars3Icon,
-    BellIcon,
-    CalendarIcon,
-    ChartPieIcon,
     Cog6ToothIcon,
-    DocumentDuplicateIcon,
-    FolderIcon,
-    HomeIcon,
-    UsersIcon,
     XMarkIcon,
     BookOpenIcon,
+    MapPinIcon,
+    CheckBadgeIcon,
+    FireIcon,
+    HomeModernIcon,
   } from '@heroicons/vue/24/outline'
   import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/vue/20/solid'
   
   const navigation = [
     { name: 'Table Of Contents', href: '#toc', icon: BookOpenIcon, current: true },
-    { name: 'Start Here', href: '#general-information', icon: UsersIcon, current: false },
-    { name: 'Rules', href: '#rules', icon: FolderIcon, current: false },
-    { name: 'Fire Safety', href: '#fire-safety', icon: CalendarIcon, current: false },
-    { name: 'Seasonal Camping', href: '#seasonal-camping', icon: DocumentDuplicateIcon, current: false },
+    { name: 'Start Here', href: '#general-information', icon: MapPinIcon, current: false },
+    { name: 'Rules', href: '#rules', icon: CheckBadgeIcon, current: false },
+    { name: 'Fire Safety', href: '#fire-safety', icon: FireIcon, current: false },
+    { name: 'Seasonal Camping', href: '#seasonal-camping', icon: HomeModernIcon, current: false },
   ]
   const teams = [
     { id: 1, name: 'TRC Home', href: 'https://www.bing.com/search?pglt=163&q=triangle+recreation+camp', initial: 'TRC', current: false },

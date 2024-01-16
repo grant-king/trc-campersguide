@@ -1,9 +1,7 @@
 <script setup>
-import SectionLeaders from './components/SectionLeaders.vue';
-import SectionList from './components/SectionList.vue';
+import AppShell from './components/AppShell.vue';
 </script>
 
 <template>
-  <SectionLeaders />
-  <SectionList />
+  <AppShell />
 </template>

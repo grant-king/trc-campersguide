@@ -6,7 +6,7 @@
         <p class="mt-6 text-lg leading-8 text-gray-600">{{ section.description }}</p>
       </div>
       <ul role="list" class="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
-        <li v-for="part in section.parts" :key="part.href" class="flex flex-col gap-10 pt-12 sm:flex-row">
+        <li v-for="part in section.parts" :key="part.id" class="flex flex-col gap-10 pt-12 sm:flex-row" :id="part.href">
           <img @click="toggleContentVisibility(part.id)" class="interactive-image aspect-[4/5] flex-none w-52 rounded-2xl object-cover" :src="part.imageUrl" alt="" />
           <div class="max-w-xl flex-auto">
               <h3 class="text-lg font-semibold leading-8 tracking-tight text-gray-900">{{ part.title }}</h3>

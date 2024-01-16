@@ -285,7 +285,7 @@ const sections = [
                         body: 'The water provided by the shared fire suppression system is not for consumption and shall not to be used for drinking, washing, or any other purpose other than emergency fire suppression situations.'
                     },
                 ],
-                href: '#rules-c',
+                href: 'fire-safety',
                 id: 'rules-c',
                 imageUrl:
                     camping_1,
@@ -770,7 +770,7 @@ const sections = [
     },
     {
         title: 'Seasonal Camping',
-        description: 'This section contains the',
+        description: 'This section covers seasonal camping at the campground.',
         id: 'seasonal-camping',
         parts: [
             {

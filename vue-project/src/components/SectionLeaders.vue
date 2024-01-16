@@ -23,56 +23,62 @@
 </template>
 
 <script setup>
-import camping_1 from '@/assets/camping_1.webp'
+import gen_info from '@/assets/gen_info.webp'
+import standing_rules from '@/assets/standing_rules.webp'
+import photography from '@/assets/photography.webp'
+import violations from '@/assets/violations.webp'
+import wildlife from '@/assets/wildlife.webp'
+import steps from '@/assets/steps.webp'
+import seasonal from '@/assets/seasonal.webp'
   const posts = [
     {
       id: 1,
       title: 'General Information, Fees, and Parking',
       href: '#general-information',
       imageUrl:
-        camping_1,
+        gen_info,
     },
     {
       id: 2,
       title: 'TRC Standing Rules',
       href: '#rules',
       imageUrl:
-        camping_1,
+        standing_rules,
     },
     {
       id: 3,
       title: 'Photography and Video Recording',
       href: '#photography',
       imageUrl:
-        camping_1,
+        photography,
     },
     {
       id: 4,
       title: 'Campground Maintenance and Wildlife Habitat Enhancement',
       href: '#campground',
       imageUrl:
-        camping_1,
+        wildlife,
     },
     {
       id: 5,
       title: 'Rules Violations and Dispute Resolution',
       href: '#violations',
       imageUrl:
-        camping_1,
+        violations,
     },
     {
       id: 6,
       title: 'General Steps of Consequence',
       href: '#consequence',
       imageUrl:
-        camping_1,
+        steps,
     },
     {
       id: 7,
       title: 'Seasonal Camping at TRC',
       href: '#seasonal-camping',
       imageUrl:
-        camping_1,
+        seasonal,
     },
   ]
   </script>

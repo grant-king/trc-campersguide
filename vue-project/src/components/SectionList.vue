@@ -461,7 +461,7 @@ const sections = [
                     },
                     {
                         heading: 'Background',
-                        body: 'riangle Recreation Camp suffers yearly winter damage to trees (primarily older alders) requiring significant effort to clear. This policy would limit the work required to clean up weather-damaged trees and at the same time provide enhanced habitat to certain wildlife as required in our Conditional Use Permit.',
+                        body: 'Triangle Recreation Camp suffers yearly winter damage to trees (primarily older alders) requiring significant effort to clear. This policy would limit the work required to clean up weather-damaged trees and at the same time provide enhanced habitat to certain wildlife as required in our Conditional Use Permit.',
                     },
                 ],
                 href: '#campground-a',

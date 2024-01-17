@@ -2,7 +2,7 @@
 Static Vue site for displaying TRC Camper's Guide info in a user-friendly format.
 
 ## Visit Live Site
-Site is deployed at [trianglehat.org](https://trianglehat)
+Site is deployed at [trianglehat.org](https://trianglehat.org)
 
 ## How to Contribute
 

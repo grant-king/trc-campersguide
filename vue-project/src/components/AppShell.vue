@@ -194,7 +194,7 @@
             </div>
 
             <main class="py-10">
-                <div class="px-1 sm:px-2 lg:px-4">
+                <div class="px-1 sm:px-2 lg:px-4 overflow-x-hidden">
                     <MainContent />
                 </div>
             </main>

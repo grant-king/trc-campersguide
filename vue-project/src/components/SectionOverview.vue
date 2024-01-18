@@ -7,8 +7,8 @@
       </div>
       <ul role="list" class="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
         <li v-for="part in section.parts" :key="part.id" class="flex flex-col gap-10 pt-12 sm:flex-row" :id="part.href">
-          <div class="border-solid border-4 border-black opacity-50 drop-shadow-xl flex-none bg-gradient-to-b from-rose-300 via-green-600 to-violet-900 rounded">
-            <img @click="toggleContentVisibility(part.id)" class="opacity-80 interactive-image aspect-[4/5] flex-none w-44 rounded-2xl object-cover" :src="part.imageUrl" alt="" />
+          <div @click="toggleContentVisibility(part.id)" class="border-solid border-4 border-black opacity-50 drop-shadow-xl flex-none bg-gradient-to-b from-rose-300 via-green-600 to-violet-900 rounded">
+            <img class="opacity-80 interactive-image aspect-[4/5] flex-none w-44 rounded-2xl object-cover" :src="part.imageUrl" alt="" />
           </div>
           <div class="max-w-xl flex-auto">
               <h3 class="text-lg font-semibold leading-8 tracking-tight text-gray-900">{{ part.title }}</h3>
